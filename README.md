@@ -32,10 +32,17 @@ Start a black notebook and try to work on the tasks proposed in the following no
 
 | Topic  | Tasks  | ETE features  | 
 |---|---|---|
-| [Building gene families]()  | clustering homologous sequences   |   None |
-| [Building gene phylogenies](/tree/nb/01-building_gene_families)  |    |  Tree basics, ete-build, ete-view |
-|   |   |      |
-|   |   |      |
+| [Preparing Genomic data ](nb/00-preparing_genomic_data)  |  Info / convention  |   None |
+| [Building gene families](nb/01-building_gene_families)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
+| [Building gene phylogenies](nb/02-building_gene_phylogenies)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
+| [Building Concatenated species trees](nb/03-building_concat_species_trees)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
+| [Comparing trees](nb/04-comparing_trees)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
+| [Linking trees to alignments](nb/05-linking_trees_and_alignments)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
+| [Testing selection](nb/06-testing_selection)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
+| [Predicting evolutionary events](nb/07-predicting_evol_events)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
+| [Linking to NCBI taxonomy](nb/08-linking_to_NCBI_taxonomy)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
+| [Annotation trees](nb/09-annotating_trees)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
+| [Programmatic visualization](nb/10-programmatic_visualization)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
 
 
 
