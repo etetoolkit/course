@@ -1,0 +1,36 @@
+name: etecourse
+channels:
+  - etetoolkit
+  - conda-forge
+dependencies:
+  - python=3.6
+  # scientific python
+  - numpy
+  - scipy
+  - matplotlib
+  # Qt
+  - qt
+  - pyqt
+  ## Code edition
+  - notebook
+  - jupyter_contrib_nbextensions
+  ## ETE3 latest release
+  - ete3
+  ## ETE3 external tools
+  - argtable2
+  - slr
+  - ete_toolchain
+  - clustalo
+  - fasttree
+  - trimal
+  - t_coffee
+  - raxml
+  - pmodeltest
+  - phyml
+  - phylobayes
+  - paml
+  - muscle
+  - mafft
+  - kalign
+  - iqtree
+  - dialigntx
