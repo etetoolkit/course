@@ -72,7 +72,12 @@ git clone https://github.com/etetoolkit/course
 ## Install and initialize miniconda 
 
 - You can skip this step if you already have a conda env and know how to use it
-- Rembember to initialize your conda env. (The Miniconda installation script will ask you about this)
+- Rembember to initialize your conda env. i.e. the Miniconda installation script will ask you about this. 
+```
+Do you wish the installer to initialize Miniconda3
+by running conda init? [yes|no]
+[no] >>> yes
+```
 
 ### Linux
 ```
