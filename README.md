@@ -48,6 +48,17 @@ Start a black notebook and try to work on the tasks proposed in the following no
 
 # Environment setup
 
+this tutorial requires the following: 
+- git (to clone and update this repository)
+- Python 3.6 (for full compatibility, avoid 3.7 and 3.8)
+- ete3 3.1.2 (Install lastest from etetookit conda channel, other channels might not be updated.
+- ete_toolchain (install from etetoolkit conda channel)
+- jupyter notebook and nbextensions
+
+
+- The recipe to obtain a clean environment to follow all steps bellow:
+
+
 ## Clone this repository (git required)
 ```
 # makes a separate dir for this course and enter it
@@ -61,7 +72,12 @@ git clone https://github.com/etetoolkit/course
 ## Install and initialize miniconda 
 
 - You can skip this step if you already have a conda env and know how to use it
-- Rembember to initialize your conda env. (The Miniconda installation script will ask you about this)
+- Rembember to initialize your conda env. i.e. the Miniconda installation script will ask you about this. 
+```
+Do you wish the installer to initialize Miniconda3
+by running conda init? [yes|no]
+[no] >>> yes
+```
 
 ### Linux
 ```
@@ -77,16 +93,30 @@ bash Miniconda3-latest-MaxOSX-x86_64.sh -p ~/eteconda/
 
 
 ## Create a conda environment for this course with all dependencies
+
+1. open a new shell (IMPORTANT!), so you have your new conda env initialized.
+2. Then create an enviroment to run this tutorial.
+
 ```
 conda env create -f course/REQUIREMENTS_conda.yml
 conda activate etecourse
 ```
 
+## Install latest ete3
+```
+pip install -I ete3
+```
+
+
 ## uncompress necessary data and start jupyter
 ```
-cd course/ 
+# Enter data directory and uncompress data
+cd course/data/
 tar zxf fasta.tar.gz
 tar zxf phylo.tar.gz
+
+# Start jupyter in the root directory of this repo
+cd ../
 jupyter notebook
 ```
 
