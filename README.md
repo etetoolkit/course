@@ -58,9 +58,10 @@ cd etecourse/
 git clone https://github.com/etetoolkit/course
 ```
 
-## Install and initialize miniconda
+## Install and initialize miniconda 
 
-(You can skip this if you know conda)
+- You can skip this step if you already have a conda env and know how to use it
+- Rembember to initialize your conda env. (The Miniconda installation script will ask you about this)
 
 ### Linux
 ```
@@ -84,7 +85,8 @@ conda activate etecourse
 ## uncompress necessary data and start jupyter
 ```
 cd course/ 
-tar zxf data.tar.gz
+tar zxf fasta.tar.gz
+tar zxf phylo.tar.gz
 jupyter notebook
 ```
 
