@@ -32,17 +32,17 @@ Start a black notebook and try to work on the tasks proposed in the following no
 
 | Topic  | Tasks  | ETE features  | 
 |---|---|---|
-| [Preparing Genomic data ](nb/00-preparing_genomic_data)  |  Info / convention  |   None |
+| [Preparing Genomic data ](nb/00-preparing_genomic_data)  |  General advides  |   None |
 | [Building gene families](nb/01-building_gene_families)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
-| [Building gene phylogenies](nb/02-building_gene_phylogenies)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
-| [Building Concatenated species trees](nb/03-building_concat_species_trees)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
-| [Comparing trees](nb/04-comparing_trees)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
-| [Linking trees to alignments](nb/05-linking_trees_and_alignments)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
-| [Testing selection](nb/06-testing_selection)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
-| [Predicting evolutionary events](nb/07-predicting_evol_events)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
-| [Linking to NCBI taxonomy](nb/08-linking_to_NCBI_taxonomy)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
-| [Annotation trees](nb/09-annotating_trees)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
-| [Programmatic visualization](nb/10-programmatic_visualization)  |  clustering homologous sequences  |  Tree basics, ete-build, ete-view |
+| [Building gene phylogenies](nb/02-building_gene_phylogenies)  |  building and handling phylogenetic gene tree |  Tree basics, ete-build, ete-view |
+| [Building Concatenated species trees](nb/03-building_concat_species_trees)  |  building contatenated species trees   |  ete-build supermatrix, PhyloTree collections |
+| [Comparing trees](nb/04-comparing_trees)  |  Comparing tree topologies  |  ete-compare, Tree.compare |
+| [Linking trees to alignments](nb/05-linking_trees_and_alignments)  |  binding MSAs and  PhyloTrees  |  SeqGroup, PhyloTree |
+| [Testing selection](nb/06-testing_selection)  |  Testing evolutionary hypothesis  |  ete-evol, codeml, visualization |
+| [Predicting evolutionary events](nb/07-predicting_evol_events)  | Duplication and Speciation event detection  |  Rooting, Standardizing, evol events |
+| [Linking to NCBI taxonomy](nb/08-linking_to_NCBI_taxonomy)  |  Querying NCBI taxonomy  |  ete-ncbiquery, NCBITaxa, Tree.annotate_ncbi_taxa |
+| [Annotation trees](nb/09-annotating_trees)  |  NA  |  NA |
+| [Programmatic visualization](nb/10-programmatic_visualization)  | Custom visualization  |  tree.render, TreeStyle, NodeStyle, Faces |
 
 
 
