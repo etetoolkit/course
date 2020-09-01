@@ -114,6 +114,7 @@ pip install -I ete3
 cd course/data/
 tar zxf fasta.tar.gz
 tar zxf phylo.tar.gz
+tar zxf evol.tar.gz
 
 # Start jupyter in the root directory of this repo
 cd ../
