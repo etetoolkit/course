@@ -100,9 +100,13 @@ conda activate etecourse
 
 ## uncompress necessary data and start jupyter
 ```
-cd course/ 
+# Enter data directory and uncompress data
+cd course/data/
 tar zxf fasta.tar.gz
 tar zxf phylo.tar.gz
+
+# Start jupyter in the root directory of this repo
+cd ../
 jupyter notebook
 ```
 
