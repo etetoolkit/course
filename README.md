@@ -102,6 +102,12 @@ conda env create -f course/REQUIREMENTS_conda.yml
 conda activate etecourse
 ```
 
+## Install latest ete3
+```
+pip install ete3
+```
+
+
 ## uncompress necessary data and start jupyter
 ```
 # Enter data directory and uncompress data
