@@ -93,6 +93,10 @@ bash Miniconda3-latest-MaxOSX-x86_64.sh -p ~/eteconda/
 
 
 ## Create a conda environment for this course with all dependencies
+
+1. open a new shell (IMPORTANT!), so you have your new conda env initialized.
+2. Then create an enviroment to run this tutorial.
+
 ```
 conda env create -f course/REQUIREMENTS_conda.yml
 conda activate etecourse
