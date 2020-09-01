@@ -15,7 +15,7 @@ dependencies:
   - notebook
   - jupyter_contrib_nbextensions
   ## ETE3 latest release
-  - ete3
+  ## - ete3 # install with pip
   ## ETE3 external tools
   - argtable2
   - slr
