@@ -104,7 +104,7 @@ conda activate etecourse
 
 ## Install latest ete3
 ```
-pip install ete3
+pip install -I ete3
 ```
 
 
