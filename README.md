@@ -48,6 +48,17 @@ Start a black notebook and try to work on the tasks proposed in the following no
 
 # Environment setup
 
+this tutorial requires the following: 
+- git (to clone and update this repository)
+- Python 3.6 (for full compatibility, avoid 3.7 and 3.8)
+- ete3 3.1.2 (Install lastest from etetookit conda channel, other channels might not be updated.
+- ete_toolchain (install from etetoolkit conda channel)
+- jupyter notebook and nbextensions
+
+
+- The recipe to obtain a clean environment to follow all steps bellow:
+
+
 ## Clone this repository (git required)
 ```
 # makes a separate dir for this course and enter it
