@@ -21,14 +21,33 @@ IMPORTANT: Note that data used in this course is manually manipulated to ensure 
 To start practicing you just need to: 
 - [Setup the environment](Environment setup)
 
-
 # Full Exercise
 
 After many years of work, your lab has just isolated and sequenced a very interesting strain of the Aquifex aeolicus bacterium. This strain possesses a remarkable resistance to sulfur-rich environment. 
 
 To investigate it further, you decide to address an in depth phylogenomic study where your strain is analyzed in the context of other known sulfur-related organisms and reference species.
 
-Start a black notebook and try to work on the tasks proposed in the following notebooks: 
+```
+TaxID     Sci.Name 
+224324999	Aquifex aeolicus (your new strain. TAXID does not exist)
+224324	Aquifex aeolicus VF5
+263820	Picrophilus torridus DSM 9790
+273063	Sulfurisphaera tokodaii str. 7
+525897	Desulfomicrobium baculatum DSM 4028
+555778	Halothiobacillus neapolitanus c2
+637389	Acidithiobacillus caldus ATCC 51756
+673860	Aciduliprofundum sp. MAR08-339
+713587	Thioalkalivibrio thiocyanoxidans ARh 4
+743299	Acidithiobacillus ferrivorans SS3
+933801	Acidianus hospitalis W1
+1051632	Sulfobacillus acidophilus TPY
+1121405	Desulfococcus multivorans DSM 2059
+1158165	Thioalkalivibrio sp. ALMg11
+1255043	Thioalkalivibrio nitratireducens DSM 14787
+```
+
+
+Start a blank notebook and try to work on the tasks proposed in the following notebooks: 
 
 | Topic  | Tasks  | ETE features  | 
 |---|---|---|
@@ -43,7 +62,6 @@ Start a black notebook and try to work on the tasks proposed in the following no
 | [Linking to NCBI taxonomy](nb/08-linking_to_NCBI_taxonomy)  |  Querying NCBI taxonomy  |  ete-ncbiquery, NCBITaxa, Tree.annotate_ncbi_taxa |
 | [Annotation trees](nb/09-annotating_trees)  |  NA  |  NA |
 | [Programmatic visualization](nb/10-programmatic_visualization)  | Custom visualization  |  tree.render, TreeStyle, NodeStyle, Faces |
-
 
 
 # Environment setup
